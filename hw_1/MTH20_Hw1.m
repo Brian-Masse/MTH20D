@@ -24,15 +24,15 @@ z = 25 - ( 100 - (7 * exp(5+cos(pi/3))) );
 p4 = asin(3);
  
 %% Problem 6
-function geomSeq(n, r)
-    p6ba = 1;
+% function geomSeq(n, r)
+%     p6ba = 1;
+% 
+%     for i=0: n-1
+%         p6ba * r^i;
+%     end
+% end
 
-    for i=0: n-1
-        p6ba * r^i;
-    end
-end
-
-geomSeq(7, 1/4);
+% geomSeq(7, 1/4);
 
 %% Problem 7
 
